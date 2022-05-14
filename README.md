@@ -10,7 +10,7 @@ http://localhost:8000/produtos/editar/1
 Deletar
 http://localhost:8000/produtos/excluir/1
 
-'''
+
 BANCO DE DADOS E TABELA
 
 CREATE DATABASE produtos;
@@ -25,4 +25,4 @@ CREATE TABLE crud_basico (
 	updated_at timestamp,
 	PRIMARY KEY (id)
 ) ENGINE=InnoDB;
-'''
+

@@ -1,4 +1,7 @@
 @extends('layouts.basico')
+
+@section('titulo', 'Listar Produto')
+
 @section('conteudo')
     <label for="">Nome:</label><br>
     <input type="text" name="nome" value="{{ $produto->nome }}"><br>

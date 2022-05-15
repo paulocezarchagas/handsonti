@@ -1,0 +1,40 @@
+html, body {
+    height: 50%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    background-color: #CCC;
+}
+
+label{
+    font-weight: bold;
+}
+
+input, select, textarea, button {
+    width: 30%;
+    padding: 5px 10px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 3px;    
+    color: #333;
+}
+
+button {
+    width: 10%;
+    padding: 5px 15px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #333;
+}
+
+button {
+    background-color: #7ab829;
+    cursor: pointer;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #6ea22c;
+}
